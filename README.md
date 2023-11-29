@@ -1,7 +1,7 @@
-# React + Vite
+# Portfolio Web app with React.js & 3D models
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project powered by React + Vite
 
-Test available:
+Live test available:
 
 -https://marouane-elgoumiri.github.io/portfolio/
