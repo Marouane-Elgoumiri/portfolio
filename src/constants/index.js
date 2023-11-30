@@ -31,6 +31,7 @@ import {
   import javamobile from "../assets/javamobile.png";
   import javafx from "../assets/javafx.png";
   import gestion from "../assets/gestion.png";
+  import ebtikar from "../assets/company/ebtikar.png"
   export const navLinks = [
     {
       id: "about",
@@ -116,7 +117,7 @@ import {
     {
       title: "React.js Developer",
       company_name: "EbtikarWeb",
-      icon: starbucks,
+      icon: ebtikar,
       iconBg: "#383E56",
       date: "Internship: April 2023 - July 2023",
       points: [
