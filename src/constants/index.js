@@ -107,6 +107,7 @@ import {
       icon: git,
     },
     {
+      
       name: "figma",
       icon: figma,
     },
