@@ -1,6 +1,6 @@
 # Portfolio with Next.js & Vite
 
-![Screenshot from 2024-04-19 17-30-44](https://github.com/Marouane-Elgoumiri/portfolio/assets/96888594/f2164b6e-8c3f-48d5-ae92-102af24aacbf)
+
 
 
 <div align="center">
@@ -12,6 +12,8 @@
 ![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
+
+![Screenshot from 2024-04-19 17-30-44](https://github.com/Marouane-Elgoumiri/portfolio/assets/96888594/f2164b6e-8c3f-48d5-ae92-102af24aacbf)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
