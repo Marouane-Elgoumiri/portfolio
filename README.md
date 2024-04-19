@@ -1,5 +1,8 @@
 # Portfolio with Next.js & Vite
 
+![Screenshot from 2024-04-19 17-30-44](https://github.com/Marouane-Elgoumiri/portfolio/assets/96888594/f2164b6e-8c3f-48d5-ae92-102af24aacbf)
+
+
 <div align="center">
   
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
