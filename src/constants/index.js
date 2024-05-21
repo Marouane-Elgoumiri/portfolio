@@ -31,7 +31,12 @@ import {
   import javamobile from "../assets/javamobile.png";
   import javafx from "../assets/javafx.png";
   import gestion from "../assets/gestion.png";
+  import blogApp from "../assets/blogAppSpring.jpg";
+  import Linkedin from "../assets/linkedin.jpg";
   import ebtikar from "../assets/company/ebtikar.png"
+  import codeAlpha from "../assets/company/codeAlpha.png"
+  import codeSoft from "../assets/company/codeSoft.png"
+  import jobBored from "../assets/jobBoard.png"
   export const navLinks = [
     {
       id: "about",
@@ -128,7 +133,32 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    
+    {
+      title: "Web Developer Intern",
+      company_name: "CodeSoft",
+      icon: codeSoft,
+      iconBg: "#383E56",
+      date: "Internship: January 2024 - February 2024",
+      points: [
+        "Task 1: Building Quiz App with MERN stack.",
+        ,
+        "Task 2: Building Job Board app with MERN stack",
+        "Task 3: Building Developer Portfolio with HTML, CSS and JavaScript",
+      ],
+    },
+    {
+      title: "Data Science Intern",
+      company_name: "CodeAlpha",
+      icon: codeAlpha,
+      iconBg: "#383E56",
+      date: "Internship: February 2024 - March 2024",
+      points: [
+        "Task 1: Titanic Classification to predict whether a passenger survived the Titanic sinking based on various features.",
+        ,
+        "Task 2: Building a predictive model using linear regression to predict the insurence cost based on various features such as age, gender, bmi and more..",
+        "Task 3: A/B testing analysis to evaluate the impact of a change or intervention. Analyze the results using statistical techniques and draw actionable insights..",
+      ],
+    }
   ];
   
   const testimonials = [
@@ -220,7 +250,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Stock Management",
+      name: "JobBoard app",
       description:
         "Web application that enables users manage students informations",
       tags: [
@@ -229,13 +259,63 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "Bootstrap",
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "MUI",
           color: "pink-text-gradient",
         },
         
       ],
-      image:gestion,
-      source_code_link: "https://github.com/Marouane-Elgoumiri/Gestion_produits.git",
+      image:jobBored,
+      source_code_link: "https://github.com/Marouane-Elgoumiri/job_board",
+    },
+    {
+      name: "Blog App SpringBoot",
+      description:
+        "Blog App with Spring Boot with REST controllers",
+      tags: [
+        {
+          name: "Spring Boot",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Java",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Postman",
+          color: "orange-text-gradient",
+        },
+      ],
+      image:blogApp,
+      source_code_link: "https://github.com/Marouane-Elgoumiri/Blog_App_SpringBoot",
+    },
+    {
+      name: "Linkedin data mining",
+      description:
+        "Analyzing Linkedin Profile data",
+      tags: [
+        {
+          name: "Colab",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Plotly",
+          color: "orange-text-gradient",
+        },
+      ],
+      image:Linkedin,
+      source_code_link: "https://github.com/Marouane-Elgoumiri/Linkedin_mining_data?tab=readme-ov-file#linkedin-data-mining",
     },
   ];
   
