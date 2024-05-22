@@ -93,7 +93,10 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
     {
       name: "Tailwind CSS",
       icon: tailwind,
