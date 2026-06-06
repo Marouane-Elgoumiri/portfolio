@@ -35,6 +35,7 @@ import {
   import Linkedin from "../assets/linkedin.jpg";
   import ebtikar from "../assets/company/ebtikar.png"
   import codeAlpha from "../assets/company/codeAlpha.png"
+  import leoni from "../assets/company/leoni.png"
   import codeSoft from "../assets/company/codeSoft.png"
   import jobBored from "../assets/jobBoard.png"
   export const navLinks = [
@@ -155,6 +156,19 @@ import {
         ,
         "Task 2: Building a predictive model using linear regression to predict the insurence cost based on various features such as age, gender, bmi and more..",
         "Task 3: A/B testing analysis to evaluate the impact of a change or intervention. Analyze the results using statistical techniques and draw actionable insights..",
+      ],
+    },
+    {
+      title: "Software Engineer Intern",
+      company_name: "LEONI WIRING SYSTEMS MOROCCO",
+      icon: leoni,
+      iconBg: "#383E56",
+      date: "Internship: April 2025 - October 2025",
+      points: [
+        "Task 1: Designed and developed a Quality Management System to monitor the production of wiring Systems with Django and React, improving the insertion of data and creating a fundamental truth for data analysis and trend forecasting.",
+        ,
+        "Task 2: Creation of key KPIs performance indicators and quality data dashboards for each production line.",
+        "Task 3: Creation of an e-mail alert system for overdue equipment, assisting in the equipment calibration process.",
       ],
     }
   ];
