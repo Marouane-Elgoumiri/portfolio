@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../style";
 import { navLinks } from "../constants";
-import { menu, close } from "../assets";
+import { menu, close, github, linkedin } from "../assets";
 import pic from "../assets/mr1.png"
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -44,12 +44,12 @@ const Navbar = () => {
         >
           <img src={pic} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Marouane &nbsp;
+            Marwan &nbsp;
             <span className='sm:block hidden'> | Software Developement</span>
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden sm:flex flex-row gap-10 items-center'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -61,6 +61,14 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <div className='flex gap-4 items-center'>
+            <a href="https://github.com/Marouane-Elgoumiri" target="_blank" rel="noreferrer" className="w-8 h-8 flex justify-center items-center hover:scale-110 transition-transform duration-300">
+              <img src={github} alt="github" className="w-full h-full object-contain" />
+            </a>
+            <a href="https://www.linkedin.com/in/marwan-el-goumiri/" target="_blank" rel="noreferrer" className="w-8 h-8 flex justify-center items-center hover:scale-110 transition-transform duration-300">
+              <img src={linkedin} alt="linkedin" className="w-full h-full object-contain" />
+            </a>
+          </div>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -91,6 +99,14 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <div className='flex gap-4 items-center mt-2'>
+                <a href="https://github.com/Marouane-Elgoumiri" target="_blank" rel="noreferrer" className="w-8 h-8 flex justify-center items-center hover:scale-110 transition-transform duration-300">
+                  <img src={github} alt="github" className="w-full h-full object-contain" />
+                </a>
+                <a href="https://www.linkedin.com/in/marwan-el-goumiri/" target="_blank" rel="noreferrer" className="w-8 h-8 flex justify-center items-center hover:scale-110 transition-transform duration-300">
+                  <img src={linkedin} alt="linkedin" className="w-full h-full object-contain" />
+                </a>
+              </div>
             </ul>
           </div>
         </div>

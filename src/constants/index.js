@@ -24,6 +24,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    python,
+    django,
+    linux,
   } from "../assets";
   import mysql from "../assets/tech/mysql.png"
   import ibnzohr from "../assets/company/ibnzohr.png"
@@ -115,7 +118,18 @@ import {
       name: "figma",
       icon: figma,
     },
-    
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Django",
+      icon: django,
+    },
+    {
+      name: "Linux",
+      icon: linux,
+    },
   ];
   
   const experiences = [

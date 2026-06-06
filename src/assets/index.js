@@ -3,7 +3,8 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import github from "./github_icon.png";
+import linkedin from "./LinkedIn_icon.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -20,6 +21,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import django from "./tech/django.png";
+import linux from "./tech/linux.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,6 +41,7 @@ export {
   mobile,
   web,
   github,
+  linkedin,
   menu,
   close,
   css,
@@ -52,6 +57,9 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  django,
+  linux,
   meta,
   shopify,
   starbucks,
