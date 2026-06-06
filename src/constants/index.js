@@ -54,7 +54,7 @@ import {
   
   const services = [
     {
-      title: "Future Software Engineer",
+      title: "Software Engineer",
       icon: web,
     },
     {
@@ -65,11 +65,6 @@ import {
       title: "Backend Developer",
       icon: backend,
     },
-    {
-      title: "React.js Developer",
-      icon: creator,
-    },
-    
   ];
   
   const technologies = [
